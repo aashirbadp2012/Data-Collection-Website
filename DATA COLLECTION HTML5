@@ -1,0 +1,42 @@
+<!DOCtype html>
+<html>
+<head>
+<title>Data Collection Form</title>
+</head>
+<body>
+<H1>Please provide the following information for data collection of students</H1>
+<form method="post" action="mailto:aashirbadp2012@gmail.com">
+<b>Name : </b>
+<input type="text" name="full name" size="10" maxlength="25"><br>
+<b>Age : </b>
+<input type="text" name="age" size="10" maxlength="2"><br>
+<b>Date of Birth : </b>
+<input type="text" name="dob" size="10" maxlength="10"><br>
+<b>Mobile No. : </b>
+<input type="password" name="mobile no." size="10" maxlength="10"><br>
+<b>Pin Code : </b>
+<input type="text" name="pincode" size="10" maxlength="6"><br>
+<b>City : </b>
+<select name="city" size="5">
+<option value ="New Delhi">New Delhi
+<option value="Mumbai">Mumbai
+<option value="Bengaluru">Bengaluru
+<option value="Pune">Pune
+<option value="Kolkata">Kolkata
+</option><br>
+</select><br>
+<b>Streams (Only for 10th Standard) : </b><br>
+<input type="checkbox" name="streams" value="science">Science<br>
+<input type="checkbox" name="streams" value="math">Math<br>
+<input type="checkbox" name="streams" value="art & commerce">Art & Commerce<br>
+<b>Please rate the education quality of our school</b><br>
+Excellent<input type="radio" name="review" value="excellent"><br>
+Good<input type="radio" name="review" value="good"><br>
+Average<input type="radio" name="review" value="average"><br>
+Poor<input type="radio" name="review" value="poor"><br>
+<H3>Thanks for filling the form</H3>
+<p><input type="submit">
+<input type="reset">
+</form>
+</body>
+</html>
